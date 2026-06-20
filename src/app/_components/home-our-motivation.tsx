@@ -15,17 +15,17 @@ import { styled, useMediaQuery, useTheme } from '@mui/material'
 const CONTENT = [
   {
     value: '5+',
-    description: 'Years Providing Services',
+    description: 'サービス提供年数',
     image: '/images/medal.png',
   },
   {
     value: '125+',
-    description: 'Satisfaction Clients',
+    description: '満足いただいたお客様',
     image: '/images/smile.png',
   },
   {
     value: '500+',
-    description: 'Project Complete',
+    description: 'プロジェクト完了数',
     image: '/images/success.png',
   },
 ]
@@ -47,7 +47,7 @@ const HomeOurMotivation = () => {
         <Grid container spacing={6}>
           <Grid size={{ xs: 12, md: 4 }} sx={{ pr: 4 }}>
             <Box>
-              <SectionTitle>WE WORK HARD, WE PLAY HARD</SectionTitle>
+              <SectionTitle>全力で仕事し、全力で遊ぶ</SectionTitle>
               <Typography
                 variant='h1'
                 sx={{
@@ -56,7 +56,7 @@ const HomeOurMotivation = () => {
                   lineHeight: 1.4,
                 }}
               >
-                We are motivated by a desire to achieve.
+                成果を上げたいという想いに突き動かされています。
               </Typography>
               <Typography
                 sx={{
@@ -65,7 +65,7 @@ const HomeOurMotivation = () => {
                   lineHeight: 1.8,
                 }}
               >
-                We enjoy finding simple solutions for complex challenges.
+                複雑な課題にシンプルな解決策を見つけることを楽しんでいます。
               </Typography>
             </Box>
           </Grid>

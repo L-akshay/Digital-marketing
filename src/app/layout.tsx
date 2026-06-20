@@ -43,7 +43,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>): JSX.Element {
   return (
-    <html lang='en'>
+    <html lang='ja'>
       <body className={plugJakartaSans.variable}>
         <AppRouterCacheProvider options={{ key: 'css' }}>
           <AppContextProvider>

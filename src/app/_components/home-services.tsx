@@ -132,7 +132,7 @@ const HomeServices = () => {
               }}
               variant='h5'
             >
-              OUR SERVICES
+              サービス一覧
             </Typography>
           </Box>
           <Typography
@@ -144,7 +144,7 @@ const HomeServices = () => {
               textTransform: 'capitalize',
             }}
           >
-            What do you need to keep your business growing?
+            ビジネスを成長させるために必要なものは？
           </Typography>
           <Typography
             sx={{
@@ -156,8 +156,7 @@ const HomeServices = () => {
               },
             }}
           >
-            We provides a wide range of services aimed at helping Businesses,
-            Organizations.
+            企業・団体のビジネス支援を目的とした幅広いサービスを提供しています。
           </Typography>
         </Box>
       </Container>
@@ -235,8 +234,7 @@ const HomeServices = () => {
 
         <Box sx={{ textAlign: 'center', mt: 5, color: '#fbfbfb' }}>
           <Typography>
-            Since its establishment in 2016, {AppConfig.appName} has focused on
-            digital marketing
+            2016年の設立以来、{AppConfig.appName}はデジタルマーケティングに注力してきました
           </Typography>
         </Box>
       </Container>

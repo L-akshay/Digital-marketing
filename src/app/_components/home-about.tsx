@@ -23,25 +23,25 @@ interface Data {
 export const data: Data[] = [
   {
     id: 1,
-    title: 'Digital Marketing',
+    title: 'デジタルマーケティング',
     icon: null,
     color: '#ff3700',
   },
   {
     id: 2,
-    title: 'UI/UX Design',
+    title: 'UI/UXデザイン',
     icon: null,
     color: '#ff9e1d',
   },
   {
     id: 3,
-    title: 'Development',
+    title: '開発',
     icon: null,
     color: '#3397ff',
   },
   {
     id: 3,
-    title: 'AI & Machine Learning',
+    title: 'AI・機械学習',
     icon: null,
     color: '#5cb460',
   },
@@ -119,13 +119,13 @@ const HomeAbout = () => {
         <Grid container spacing={8}>
           <Grid size={{ xs: 12, md: 7 }} sx={{ pr: 6 }}>
             <Box sx={{ position: 'relative', width: { xs: '100%', md: 400 } }}>
-              <SectionTitle>ABOUT US ?</SectionTitle>
+              <SectionTitle>私たちについて</SectionTitle>
               <Typography
                 variant='h1'
                 component='h2'
                 sx={{ mb: 3, fontWeight: '700' }}
               >
-                Who Are We?
+                私たちは誰ですか？
               </Typography>
             </Box>
             <Box sx={{ position: 'relative', zIndex: 2 }}>
@@ -137,7 +137,7 @@ const HomeAbout = () => {
                   mb: 2,
                 }}
               >
-                A company that transforms ideas into beautiful things.
+              アイデアを美しい形に変える会社です。
               </Typography>
               <Typography
                 sx={{
@@ -147,8 +147,7 @@ const HomeAbout = () => {
                   lineHeight: 1.6,
                 }}
               >
-                We are a digital and marketing agency that believes in the power
-                of strategy and creative ideas.
+                戦略とクリエイティブな発想の力を信じる、デジタル＆マーケティングエージェンシーです。
               </Typography>
             </Box>
             <Box>

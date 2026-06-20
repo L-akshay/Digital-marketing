@@ -24,13 +24,13 @@ const HomeHeroContent = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const SERVICES_TEXTS = [
-    'Digital Marketing',
-    'UI/UX Design',
-    'Web & Mobile App Development',
-    'Cloud Solutions',
-    'Data & Analytics',
-    'AI & Machine Learning',
-    'E-Commerce Solutions',
+    'デジタルマーケティング',
+    'UI/UXデザイン',
+    'Web・モバイルアプリ開発',
+    'クラウドソリューション',
+    'データ分析',
+    'AI・機械学習',
+    'Eコマースソリューション',
   ]
 
   useEffect(() => {
@@ -126,9 +126,9 @@ const HomeHeroContent = () => {
               fontWeight: '800',
             }}
           >
-            We are Global Digital Brand
+            グローバル・デジタルブランド
             <br />
-            Tech Agency
+            テックエージェンシー
           </Typography>
           <Typography
             sx={{
@@ -142,10 +142,9 @@ const HomeHeroContent = () => {
               },
             }}
           >
-            A Digital Modern Agency specializing in <strong>Design </strong>,
-            <strong>Development </strong>, <strong>Branding </strong>,
+            <strong>デザイン</strong>・<strong>開発</strong>・<strong>ブランディング</strong>・
             <br />
-            and <strong>Online Marketing </strong> to elevate your business.
+            <strong>オンラインマーケティング</strong>を専門とするデジタルエージェンシーです。
           </Typography>
         </Box>
         <motion.div
@@ -191,7 +190,7 @@ const HomeHeroContent = () => {
                   mt: 1.2,
                 }}
               >
-                Scroll for more
+                スクロールして詳細を見る
               </Typography>
             </Link>
           </Box>

@@ -75,7 +75,7 @@ const HomeContact = () => {
                     }}
                     variant='h5'
                   >
-                    Let&apos;s talk
+                    お問い合わせ
                   </Typography>
                 </Box>
                 <Typography
@@ -89,8 +89,8 @@ const HomeContact = () => {
                     fontWeight: '800',
                   }}
                 >
-                  Let&apos;s make something
-                  <br /> great together.
+                  一緒に素晴らしいものを
+                  <br /> 作りましょう。
                 </Typography>
                 <Typography
                   variant='h5'
@@ -101,8 +101,7 @@ const HomeContact = () => {
                     lineHeight: 1.8,
                   }}
                 >
-                  We&apos;re excited to hear from you! Whether you have a
-                  question about our services, want to discuss a new project.
+                  サービスに関するご質問や新しいプロジェクトのご相談など、お気軽にご連絡ください。喜んでお応えします。
                 </Typography>
               </Grid>
               <Grid
@@ -146,7 +145,7 @@ const HomeContact = () => {
                         />
                       }
                     >
-                      Work With Us
+                      私たちと一緒に働く
                     </StyledButton>
                   </Link>
                 </Box>
@@ -201,7 +200,7 @@ const HomeContact = () => {
                       variant='subtitle1'
                       sx={{ color: 'text.secondary' }}
                     >
-                      Response within 24 hrs
+                      24時間以内にご返信
                     </Typography>
                   </>
                 </Box>
@@ -241,7 +240,7 @@ const HomeContact = () => {
                       variant='subtitle1'
                       sx={{ color: 'text.secondary' }}
                     >
-                      Mon - Fri / 9 am - 5:00 PM
+                      月〜金 / 午前9時〜午後5時
                     </Typography>
                   </>
                 </Box>

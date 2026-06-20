@@ -67,10 +67,10 @@ const ContactInfoItem: FC<ContactInfoItemProps> = ({
 const FooterContactInfo: FC = () => {
   return (
     <Box sx={{ mb: { xs: 4, md: 0 } }}>
-      <FooterSectionTitle title='Contact Info' />
+      <FooterSectionTitle title='お問い合わせ先' />
       <ContactInfoItem
         value='info@example.com'
-        label='Response within 24hrs'
+        label='24時間以内にご返信'
         link='mailto:info@example.com'
         icon={
           <Box
@@ -81,7 +81,7 @@ const FooterContactInfo: FC = () => {
       />
       <ContactInfoItem
         value='+62 812000xxxx'
-        label='Sen - Jum / 9am - 5:30pm'
+        label='月〜金 / 午前9時〜午後5時30分'
         link='https://wa.me/62812000xxxx'
         icon={
           <Box
@@ -92,7 +92,7 @@ const FooterContactInfo: FC = () => {
       />
       <ContactInfoItem
         value='123 Business St., Suite 456, City, State, ZIP Code, Country'
-        label='Office'
+        label='オフィス'
         link='#'
         icon={
           <Box

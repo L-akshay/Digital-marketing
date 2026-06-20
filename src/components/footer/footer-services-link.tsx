@@ -15,7 +15,7 @@ import ArrowIcon from '@/assets/icons/material-symbols--call-made.svg'
 const FooterServicesLink = () => {
   return (
     <Box sx={{ textAlign: 'left' }}>
-      <FooterSectionTitle title='Services' />
+      <FooterSectionTitle title='サービス' />
       {services.map((item, index) => (
         <MuiLink
           key={String(index)}

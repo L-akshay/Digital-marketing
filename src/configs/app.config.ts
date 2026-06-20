@@ -1,6 +1,6 @@
 export const AppConfig = {
   appName: 'NextJS Digital Agency Template',
   appDescription:
-    'A Digital Modern Agency specializing in Design, Development, Branding and Online Marketing to elevate your business.',
+    'デザイン・開発・ブランディング・オンラインマーケティングを専門とする、ビジネスを次のレベルへ導くデジタルエージェンシーです。',
   authorGithubUrl: 'https://github.com/hiriski',
 }

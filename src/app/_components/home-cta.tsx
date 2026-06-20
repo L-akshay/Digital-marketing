@@ -60,14 +60,14 @@ const HomeCTA = () => {
               variant='h6'
               sx={{ mb: 2, lineHeight: 1.4 }}
             >
-              Ready to create something amazing ?
+              素晴らしいものを作りませんか？
             </Typography>
             <Typography variant='h2' sx={{ mb: 5, lineHeight: 1.6 }}>
-              Start your business journey better with {AppConfig.appName}
+              {AppConfig.appName}と一緒にビジネスの旅をより良いものに
             </Typography>
             <Link href='/contact'>
               <StyledButton variant='contained' color='light' size='large'>
-                Work With Us
+                私たちと一緒に働く
               </StyledButton>
             </Link>
           </Box>

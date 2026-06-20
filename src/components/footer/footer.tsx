@@ -7,7 +7,6 @@ import {
   FooterWaves,
   FooterCompanyLinks,
   FooterContactInfo,
-  FooterServicesLink,
   FooterSupportLinks,
 } from '@/components/footer'
 import { SocialLinks } from '@/components'
@@ -49,13 +48,10 @@ const Footer: FC = () => {
             </Grid>
             <Grid size={{ xs: 12, md: 7 }}>
               <Grid container spacing={0}>
-                <Grid size={{ xs: 12, md: 4 }} sx={{ mt: { xs: 4, md: 0 } }}>
-                  <FooterServicesLink />
-                </Grid>
-                <Grid size={{ xs: 12, md: 4 }} sx={{ mt: { xs: 4, md: 0 } }}>
+                <Grid size={{ xs: 12, md: 6 }} sx={{ mt: { xs: 4, md: 0 } }}>
                   <FooterCompanyLinks />
                 </Grid>
-                <Grid size={{ xs: 12, md: 4 }} sx={{ mt: { xs: 4, md: 0 } }}>
+                <Grid size={{ xs: 12, md: 6 }} sx={{ mt: { xs: 4, md: 0 } }}>
                   <FooterSupportLinks />
                 </Grid>
               </Grid>
@@ -88,7 +84,7 @@ const Footer: FC = () => {
                       fontSize: { xs: 17, md: 20 },
                     }}
                   >
-                    Your Company
+                    株式会社ユアカンパニー
                   </Typography>
                 </Stack>
                 <Stack sx={{ maxWidth: { xs: '100%', md: '70%' } }}>
@@ -123,7 +119,7 @@ const Footer: FC = () => {
                   sx={{ display: 'flex', alignItems: 'center' }}
                 >
                   <Typography variant='subtitle1' sx={{ fontWeight: '500' }}>
-                    © {year} | Made with
+                    © {year} | 愛を込めて制作
                   </Typography>
                   <Box
                     component={HeartIcon}
