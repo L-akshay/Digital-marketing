@@ -6,6 +6,7 @@ import React from 'react'
 import Box from '@mui/material/Box'
 import Container from '@mui/material/Container'
 import Typography from '@mui/material/Typography'
+import Image from 'next/image'
 import { StyledButton } from '@/components/core'
 
 // configs
@@ -32,16 +33,26 @@ const HomeCTA = () => {
       <Container>
         <Box
           sx={{
-            backgroundImage: "url('/images/bg3.jpg')",
-            backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat',
-            backgroundPosition: 'center',
+            position: 'relative',
             borderRadius: 8,
             color: '#fbfbfb',
+            overflow: 'hidden',
           }}
         >
+          {/* Background image via next/image for optimization */}
+          <Image
+            src='/images/bg3.jpg'
+            alt=''
+            fill
+            sizes='(max-width: 768px) 100vw, 1200px'
+            quality={75}
+            style={{ objectFit: 'cover', objectPosition: 'center' }}
+            aria-hidden='true'
+          />
           <Box
             sx={{
+              position: 'relative',
+              zIndex: 1,
               display: 'flex',
               alignItems: 'center',
               flexDirection: 'column',

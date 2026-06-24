@@ -3,7 +3,7 @@
 import React from 'react'
 
 // hooks
-import { useTheme } from '@mui/material'
+import { useTheme, useMediaQuery } from '@mui/material'
 
 // components
 import Box from '@mui/material/Box'
@@ -11,7 +11,8 @@ import HomeHeroContent from './home-hero/home-hero-content'
 import HomeHeroDecoration from './home-hero/home-hero-decoration'
 
 const HomeHero = () => {
-  const { palette } = useTheme()
+  const { palette, breakpoints } = useTheme()
+  const isMobile = useMediaQuery(breakpoints.down('md'))
 
   return (
     <Box
@@ -24,7 +25,7 @@ const HomeHero = () => {
         overflow: 'hidden',
       }}
     >
-      <HomeHeroDecoration />
+      {!isMobile && <HomeHeroDecoration />}
       <HomeHeroContent />
     </Box>
   )

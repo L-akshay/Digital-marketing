@@ -7,6 +7,7 @@ import Typography from '@mui/material/Typography'
 import Grid from '@mui/material/Grid'
 import Divider from '@mui/material/Divider'
 import Link from 'next/link'
+import Image from 'next/image'
 import { StyledButton } from '@/components/core'
 import EmailIcon from '@/assets/icons/eva--email-outline.svg'
 import PhoneIcon from '@/assets/icons/eva--phone-outline.svg'
@@ -122,15 +123,20 @@ const HomeContact = () => {
                       md: -90,
                     },
                     right: 0,
-                    '& img': {
-                      width: {
-                        xs: 'auto',
-                        md: 500,
-                      },
+                    width: {
+                      xs: 'auto',
+                      md: 500,
                     },
                   }}
                 >
-                  <img src='/images/envelope-1.svg' alt='Footer contact' />
+                  <Image
+                    src='/images/envelope-1.svg'
+                    width={500}
+                    height={400}
+                    sizes='(max-width: 768px) 200px, 500px'
+                    alt='Footer contact'
+                    style={{ width: '100%', height: 'auto' }}
+                  />
                 </Box>
                 <Box sx={{ mt: 4 }}>
                   <Link href='/contact' passHref>

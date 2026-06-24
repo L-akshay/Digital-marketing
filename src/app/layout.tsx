@@ -1,5 +1,4 @@
 import { JSX } from 'react'
-import dynamic from 'next/dynamic'
 import type { Metadata } from 'next'
 import { Plus_Jakarta_Sans } from 'next/font/google'
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter'
@@ -8,7 +7,7 @@ import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter'
 import { AppConfig } from '@/configs'
 
 // components
-// import AppBar from '@/components/appbar/app-bar'
+import AppBar from '@/components/appbar/app-bar-dynamic'
 import Footer from '@/components/footer/footer'
 import FooterGithubBanner from '@/components/footer-github-banner'
 
@@ -21,15 +20,11 @@ import { AppContextProvider } from '@/contexts'
 // global styles
 import './globals.css'
 
-const AppBar = dynamic(() => import('@/components/appbar/app-bar'), {
-  loading: () => <div>Loading...</div>,
-  ssr: !!false,
-})
-
 const plugJakartaSans = Plus_Jakarta_Sans({
-  weight: ['300', '400', '500', '700', '800'],
+  weight: ['400', '500', '700'],
   variable: '--font-plus-jakarta-sans',
   subsets: ['latin'],
+  display: 'swap',
 })
 
 export const metadata: Metadata = {

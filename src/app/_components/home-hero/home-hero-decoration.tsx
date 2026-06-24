@@ -41,7 +41,8 @@ const HomeHeroDecoration = () => {
                 src={item.image.imageUrl}
                 width={item.image.width}
                 height={item.image.height}
-                quality={90}
+                quality={75}
+                sizes='(max-width: 1200px) 30vw, 500px'
                 alt='Decoration img'
               />
             </Box>

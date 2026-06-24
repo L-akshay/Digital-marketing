@@ -227,7 +227,8 @@ const HomeAbout = () => {
                   src='/images/dotted-1.png'
                   width={125}
                   height={125}
-                  quality={97}
+                  quality={80}
+                  sizes='125px'
                   alt='about img'
                 />
               </Box>
@@ -245,7 +246,8 @@ const HomeAbout = () => {
                   src='/images/shape-2-b.png'
                   width={60}
                   height={100}
-                  quality={97}
+                  quality={80}
+                  sizes='60px'
                   alt='about img'
                 />
               </Box>
@@ -265,7 +267,8 @@ const HomeAbout = () => {
                   src='/images/about-1.jpg'
                   width={350}
                   height={350}
-                  quality={100}
+                  quality={80}
+                  sizes='(max-width: 768px) 100vw, 350px'
                   alt='about img'
                 />
               </Box>
@@ -285,7 +288,8 @@ const HomeAbout = () => {
                   src='/images/about-2.jpg'
                   width={330}
                   height={330}
-                  quality={100}
+                  quality={80}
+                  sizes='(max-width: 768px) 100vw, 330px'
                   alt='about img'
                 />
               </Box>

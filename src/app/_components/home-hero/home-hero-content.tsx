@@ -20,25 +20,25 @@ import { motion, AnimatePresence } from 'framer-motion'
 
 const MotionTypography = motion(Typography)
 
+const SERVICES_TEXTS = [
+  'デジタルマーケティング',
+  'UI/UXデザイン',
+  'Web・モバイルアプリ開発',
+  'クラウドソリューション',
+  'データ分析',
+  'AI・機械学習',
+  'Eコマースソリューション',
+]
+
 const HomeHeroContent = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
-
-  const SERVICES_TEXTS = [
-    'デジタルマーケティング',
-    'UI/UXデザイン',
-    'Web・モバイルアプリ開発',
-    'クラウドソリューション',
-    'データ分析',
-    'AI・機械学習',
-    'Eコマースソリューション',
-  ]
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % SERVICES_TEXTS.length)
     }, 3000)
     return () => clearInterval(interval)
-  }, [SERVICES_TEXTS.length])
+  }, [])
 
   return (
     <motion.div
